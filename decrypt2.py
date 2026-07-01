@@ -195,7 +195,7 @@ for k in keys_int:
 
 results.sort(reverse=True, key=lambda x: x[0])
 
-for i, (score, k, vid, preview) in enumerate(results[:5], 1):
+for i, (score, k, vid, preview) in enumerate(results[:1], 1):
     print(f"\n--- test #{i} ---")
     print(f"Score     : {score:.4f}")
     print(f"Key       : {k}")
@@ -221,7 +221,7 @@ e_2=13
 
 facteurs = factorize(n_salaire)
 
-print("\nFacteurs trouvés :")
+print("\nFOUND FACTORS :")
 
 for f in facteurs:
     print(f)
@@ -245,7 +245,7 @@ mdp_decrypte = []
 
 
 
-print("\nsalaire decrypte :")
+print("\nDECRYPTED SALAIRES :")
 for chiffre in mdp_encrypte:
 
 
